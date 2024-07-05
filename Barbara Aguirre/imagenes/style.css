@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li {
+    margin: 10px;
+}
+img {
+    width: 150px;
+}
+h1 {
+    font-size: 25px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.caja {
+    text-align: center;
+}
+.presentacion p{
+    width: 100%;
+    font-size: 30px;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+.presentacion h1 {
+    font-size: 40px;
+    text-align: center;
+}
